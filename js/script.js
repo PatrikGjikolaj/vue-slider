@@ -33,12 +33,11 @@ const { createApp } = Vue;
         pSlide() {
             this.actImg--;
             if(this.actImg<0) {
-                this.actImg = this.slides.lenght-1;
+                this.actImg = this.slides.length-1;
             }
         },
         nSlide() {
-            this.actImg--;
-            if(this.actImg==this.slides.leght-1) {
+            if(this.actImg==this.slides.length-1) {
                 this.actImg = 0;
             }else {
                 this.actImg++;

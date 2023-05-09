@@ -103,3 +103,15 @@ oppure i caratteri ∧ (&and;) e ∨ (&or;)
     left: 50%;
     transform: translate(-50%) rotate(135deg);
 }
+.flyUp {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+
+}
+.flyDown {
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%);
+}
